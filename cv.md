@@ -1,14 +1,13 @@
 # Anna Orlova
 
-***
-
 ## Contacts
-* Discord: _TBD_
+* Discord: @anna.orlova#2706
 * E-mail: [anna2704orlova@gmail.com](mailto:anna2704orlova@gmail.com)
 * LinkedIn: [anna-orlova](https://www.linkedin.com/in/anna-orlova-0b94a264/)
 
 ## Summary
-_TBD_
+For 5 years I was working as a Test Automation Engineer, but during my maternity leave I decided to try a new career path 
+as a software developer and focused on enhancing my skill set in this area. 
 
 ## Skills
 * HTML, CSS, SCSS, JSON, Canvas
