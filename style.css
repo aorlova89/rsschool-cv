@@ -42,6 +42,12 @@ body {
     height: 200px;
 }
 
+.contacts-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 table {
     border-collapse: collapse;
     width: 95%;
