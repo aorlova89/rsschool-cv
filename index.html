@@ -10,10 +10,10 @@
 <body>
 
 <div class="cv-container">
-    <div class="cv-data">
+    <main class="cv-data">
         <section class="left-side">
             <div class="content">
-                <div class="avatar"></div>
+                <img class="avatar" src="./assets/testimonials_woman5.png" alt="Avatar">
                 <div class="contact">
                     <h2>Contact</h2>
                     <hr/>
@@ -59,9 +59,7 @@
                         <li class="experience-item">January 2017 - January 2020 Grid Dynamics (Saratov, Russia), QA Automation Engineer</li>
                         <li class="experience-item">March 2015 - November 2017 Mirantis (Saratov, Russia), QA Automation Engineer</li>
                         <li class="experience-item">March 2012 - March 2015 EPAM Systems (Saratov, Russia), Senior Software Testing Engineer</li>
-
                     </ul>
-
                 </div>
                 <div class="skills">
                     <h2>Skills</h2>
@@ -94,21 +92,41 @@
                         </table>
                     </div>
                 </div>
+                <div class="code-example">
+                    <h2>Code example</h2>
+                    <p>Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements:</p>
+                    <pre>
+                        <code>
+                            let moveZeroes = (nums) => {
+                            &emsp; let notNullIndex = -1;
+                            &emsp; for (let i = 0; i &lt; nums.length; i++) {
+                            &emsp; &emsp; if (nums[i] !== 0) {
+                            &emsp; &emsp; &emsp; notNullIndex++;
+                            &emsp; &emsp; &emsp; nums.splice(notNullIndex, 0, nums[i])
+                            &emsp; &emsp; &emsp; nums.splice(i+1, 1);
+                            &emsp; &emsp; }
+                            &emsp; }
+                            };
+                        </code>
+                    </pre>
+                </div>
             </div>
         </section>
-    </div>
+    </main>
     <footer>
-        <a class="my-github" href="https://github.com/aorlova89/" target="_blank">
-            <img class="github-icon" src="./assets/github.svg" alt="Github Icon" width="26" height="26">
-            <p class="footer-text">Visit my GitHub</p>
-        </a>
-        <p class="footer-text">©2022</p>
-        <a href="https://rs.school/js/" target="_blank">
-            <img src="./assets/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
-        </a>
+        <nav>
+            <a class="my-github" href="https://github.com/aorlova89/" target="_blank">
+                <img class="github-icon" src="./assets/github.svg" alt="Github Icon" width="26" height="26">
+                <p class="footer-text">Visit my GitHub</p>
+            </a>
+            <p class="footer-text">April, 2022</p>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./assets/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+            </a>
+        </nav>
     </footer>
 </div>
 
-
 </body>
 </html>
+
